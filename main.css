@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: rgba(204, 221, 226, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#page-container {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dog-image-container {
+    margin: 2rem;
+}
+
+#dog-image {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#date-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 2rem;
+}
+
+#footer {
+    flex-shrink: 0;
+
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    border-top: 1px solid rgb(36, 68, 174);
+}
+
+#random-button {
+}
+
+#date-heading {
+}
+#time-heading {
+    margin-top: 1rem;
+}
+#day-heading {
+    margin-top: 1rem;
+}
